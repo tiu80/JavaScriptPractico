@@ -1,0 +1,50 @@
+h1{
+    color: red;
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: blue;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-color: red;
+}
+
+.input {
+    background-color: lightgreen;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    font-size:medium;
+    padding: 6px;
+    margin-bottom: 12px;
+  }
+  .primary-button {
+    background-color: green;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    height: 50px;
+  }
